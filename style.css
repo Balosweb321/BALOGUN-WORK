@@ -1,13 +1,11 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #e5ebe6;
-    width: 100%;
 }
 .navbar{
     background-color: beige;
     position:relative;
     top: 0;
-    display: 100%;
     color: white;
     width: 100%;
 }
@@ -20,6 +18,7 @@ body{
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav show>.nav -link{
     color: white;
+    padding-left: 35px;
 }
 .navbar-light .navbar-nav.hi .nav-link.active, .navbar-light .navbar-nav show>.nav-link{
     color: rgb(12, 8, 8);
@@ -29,6 +28,7 @@ body{
     width: 80%;
     display: grid;
     align-items: center;
+ 
 }
 header{
     background:linear-gradient(rgba(228, 65, 6, 0.653), rgba(49, 21, 234, 0.3)), url(IMAGES/Black\ Yellow\ Bold\ Bag\ Fashion\ Sale\ Banner\ \(3\).png); 
@@ -116,13 +116,13 @@ h1{
     
 }
 .container{
-    background-color: #dadfdb;
+    background-color:whitesmoke;
 }
 form{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    padding: 20px;
+   padding-top: 40px;
     color: rgb(138, 24, 24);
     border: 1px solid;
     box-shadow: 0 0 10px;
@@ -132,6 +132,7 @@ form{
     border-bottom-right-radius: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 button{
@@ -153,7 +154,8 @@ button:hover{
 }
 .col{
     width: 30%;
-    box-shadow: 2px 2px 2px rgb(190,178,178);
+    padding-right: 50px;
+    color: #333;
 }
 
 .note{
@@ -292,24 +294,22 @@ input{
 
 .tru{
     font-size:400%;
-    padding-bottom: 2%;
-    padding-top:1%;
   margin-left: 400px;
 }
 
 .card {
-  width: 300px;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
   background-color:rgb(222, 221, 221);
-  margin-left: 40px;
+  margin-left: 0px;
   
 }
 
 .card-img {
-  width: 250px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   padding-left: 10px;
 }
 
@@ -331,15 +331,7 @@ input{
 .row{
     padding-left: 35px;
 }
-.cardz{
-    width: 300px;
-  border-radius: 10px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
-  background-color:rgb(222, 221, 221);
-  margin-left: 40px;
-  padding-top: 50px;
-}
+
 .containerw{
     padding-top: 50px;
     padding-left: 75px;
@@ -386,4 +378,143 @@ footer{
     padding-left: 100px;
     padding-top: 50px;
     padding-bottom:50px;
+}
+@media (max-width: 700px) {
+    .slide-description{
+        font-size: 11px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .col{
+        padding-right: 0px;
+        width: 100%;
+        padding-left: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .row.gx-5{
+        margin-top: 30px;
+    }
+    .row.hi{
+        margin-left: 0px;
+        margin-top: 0px;
+        
+    }
+    .card-img-top{
+        width: 100%;
+        height: 100%;
+    }
+    .ions{
+        display: flex;
+        flex-direction: column;
+    }
+    .card>img{
+        padding-top: 20px;
+    }
+    .miss,.vis{
+    
+        width: 100%;
+        height: 200px;
+        margin-left: 0px;
+        margin-top: 40px;
+        box-shadow: 5px 10px 15px rgb(235, 190, 190);
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        padding-top: 20px;
+        border-radius: 20px;
+        margin-bottom: 50px;
+       
+    }
+    footer{
+        margin: 100px 10px 0px 10px;
+        color: #333;
+        max-width: 100%;
+        background-color:whitesmoke;
+        padding-left: 0px;
+    }
+    .tru{
+        padding-top: 90px;
+        text-align: center;
+    }
+    .col.f{
+        margin-top: 10px;
+        box-shadow: none;
+        padding-left: 0px;
+    }
+    .ce{
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .col.f>h4{
+        text-align: center;
+    }
+    .tru{
+        font-size:300%;
+      margin-left: 30px;
+    }
+    .trust{
+        font-size:15px;
+    
+    }
+    .containerw,.containerk{
+       
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+  .card{
+        width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      font-family: Arial, sans-serif;
+      background-color:rgb(222, 221, 221);
+      margin-left: 20px;
+      padding-bottom: 30px;
+    }
+    .card{
+        width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      font-family: Arial, sans-serif;
+      background-color:rgb(222, 221, 221);
+      margin-left: 20px;
+    }
+    .card{
+        width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      font-family: Arial, sans-serif;
+      background-color:rgb(222, 221, 221);
+      margin-left: 20px;
+    
+    }
+    .card{
+    
+    }
+    .hunt{
+        text-align: center;
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-right: 100px;
+        padding-bottom:50px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .slide-title {
+        font-size: 24px;
+    }
+
+    .slide-description {
+        font-size: 16px;
+    }
+
+    h1, h4, .trust, .hunt {
+        font-size: 20px;
+    }
+
+    .tru {
+        font-size: 180%;
+    }
 }
